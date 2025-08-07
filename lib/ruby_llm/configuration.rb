@@ -45,7 +45,8 @@ module RubyLLM
                   :log_file,
                   :log_level,
                   :log_assume_model_exists,
-                  :log_stream_debug
+                  :log_stream_debug,
+                  :log_regexp_timeout
 
     def initialize
       # Connection configuration
@@ -66,6 +67,7 @@ module RubyLLM
       @log_level = ENV['RUBYLLM_DEBUG'] ? Logger::DEBUG : Logger::INFO
       @log_assume_model_exists = true
       @log_stream_debug = ENV['RUBYLLM_STREAM_DEBUG'] == 'true'
+      @log_regexp_timeout = Regexp.timeout
     end
 
     def instance_variables
