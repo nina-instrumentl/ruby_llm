@@ -54,7 +54,7 @@ module RubyLLM
       @log_file = $stdout
       @log_level = ENV['RUBYLLM_DEBUG'] ? Logger::DEBUG : Logger::INFO
       @log_stream_debug = ENV['RUBYLLM_STREAM_DEBUG'] == 'true'
-      @log_regexp_timeout = Regexp.timeout
+      @log_regexp_timeout = Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('3.2.0') ? Regexp.timeout : nil
     end
 
     def instance_variables
