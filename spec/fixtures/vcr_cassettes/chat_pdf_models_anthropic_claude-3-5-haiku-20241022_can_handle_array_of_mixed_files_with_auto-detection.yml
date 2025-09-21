@@ -26,7 +26,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Aug 2025 17:05:39 GMT
+      - Sun, 14 Sep 2025 09:54:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -36,27 +36,27 @@ http_interactions:
       Anthropic-Ratelimit-Input-Tokens-Limit:
       - '100000'
       Anthropic-Ratelimit-Input-Tokens-Remaining:
-      - '99000'
+      - '98000'
       Anthropic-Ratelimit-Input-Tokens-Reset:
-      - '2025-08-20T17:05:35Z'
+      - '2025-09-14T09:54:55Z'
       Anthropic-Ratelimit-Output-Tokens-Limit:
       - '20000'
       Anthropic-Ratelimit-Output-Tokens-Remaining:
       - '20000'
       Anthropic-Ratelimit-Output-Tokens-Reset:
-      - '2025-08-20T17:05:40Z'
+      - '2025-09-14T09:55:00Z'
       Anthropic-Ratelimit-Requests-Limit:
       - '1000'
       Anthropic-Ratelimit-Requests-Remaining:
       - '999'
       Anthropic-Ratelimit-Requests-Reset:
-      - '2025-08-20T17:05:33Z'
+      - '2025-09-14T09:54:53Z'
       Anthropic-Ratelimit-Tokens-Limit:
       - '120000'
       Anthropic-Ratelimit-Tokens-Remaining:
-      - '119000'
+      - '118000'
       Anthropic-Ratelimit-Tokens-Reset:
-      - '2025-08-20T17:05:35Z'
+      - '2025-09-14T09:54:55Z'
       Request-Id:
       - "<REQUEST_ID>"
       Strict-Transport-Security:
@@ -64,7 +64,7 @@ http_interactions:
       Anthropic-Organization-Id:
       - "<ANTHROPIC_ORGANIZATION_ID>"
       X-Envoy-Upstream-Service-Time:
-      - '6014'
+      - '6005'
       Via:
       - 1.1 google
       Cf-Cache-Status:
@@ -77,19 +77,19 @@ http_interactions:
       - "<CF_RAY>"
     body:
       encoding: ASCII-8BIT
-      string: '{"id":"msg_018RKAUXmiQZrt4Bs17JEE5f","type":"message","role":"assistant","model":"claude-3-5-haiku-20241022","content":[{"type":"text","text":"Let
-        me analyze the files you''ve shared:\n\n1. Image: This is the logo for Ruby,
-        a popular programming language. It features a stylized red gem or ruby, with
-        curved shapes creating a three-dimensional effect against a white background.
-        The logo uses a deep red color and has a modern, sleek design that represents
-        the language''s elegance and simplicity.\n\n2. PDF Document: This is a sample
-        PDF file containing Lorem Ipsum placeholder text. The document is titled \"Sample
-        PDF\" and includes multiple paragraphs of standard Lorem Ipsum text, which
-        is commonly used as a dummy text in design and publishing to demonstrate the
-        visual form of a document without relying on meaningful content.\n\nThe PDF
-        appears to be a standard text document with no special formatting beyond basic
-        paragraph structure and a title. The text is in black and white, and spans
-        multiple paragraphs filling the entire page.\n\nIs there anything specific
-        you''d like to know about either the Ruby logo or the PDF document?"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":2751,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":0,"ephemeral_1h_input_tokens":0},"output_tokens":207,"service_tier":"standard"}}'
-  recorded_at: Wed, 20 Aug 2025 17:05:39 GMT
+      string: '{"id":"msg_015JwQCy96RLjdzXWJjSssg2","type":"message","role":"assistant","model":"claude-3-5-haiku-20241022","content":[{"type":"text","text":"Let
+        me help you analyze the files you''ve uploaded:\n\n1. Image Analysis:\nThe
+        image appears to be the Ruby programming language logo. It''s a stylized red
+        gemstone or diamond shape with curved edges, representing a ruby. The logo
+        is primarily red with some white highlights that give it a three-dimensional,
+        polished appearance.\n\n2. PDF Document Analysis:\nThe PDF is titled \"Sample
+        PDF\" and contains Lorem Ipsum placeholder text. It''s a standard Lorem Ipsum
+        text used as a dummy text in document layout and design. The document has:\n-
+        A title \"Sample PDF\"\n- A subtitle \"This is a simple PDF file. Fun fun
+        fun.\"\n- Multiple paragraphs of Lorem Ipsum text\n- Appears to be a full-page
+        document with standard text formatting\n\nThe Lorem Ipsum text is a commonly
+        used placeholder text in publishing and graphic design, which helps demonstrate
+        the visual form of a document or a typeface without relying on meaningful
+        content.\n\nIs there anything specific you''d like to know about these files?"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":2751,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":0,"ephemeral_1h_input_tokens":0},"output_tokens":221,"service_tier":"standard"}}'
+  recorded_at: Sun, 14 Sep 2025 09:54:59 GMT
 recorded_with: VCR 6.3.1

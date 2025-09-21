@@ -31,7 +31,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Tue, 26 Aug 2025 19:10:43 GMT
+      - Sun, 14 Sep 2025 10:06:18 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -41,7 +41,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Server-Timing:
-      - gfet4t7; dur=743
+      - gfet4t7; dur=756
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
       Transfer-Encoding:
@@ -59,7 +59,7 @@ http_interactions:
                       "name": "best_language_to_learn",
                       "args": {}
                     },
-                    "thoughtSignature": "CowCAVSoXO6EbLIMdDf4M2hO6C2Z1E9fTjvREOmQ5aybMcI+pl/UPJQQDpul0MWeyvoUM9rFnmlF7EMFHmIYlnS2rOWm5Ee+8xR8P9T1tohd9jV6Mm3V+b3KDAotqaf9JC93t8MkqLWZXitgPKdths+ry7ay/BQz85XPiG8G0jVL5kXILAZf5xi41c3JEhMnHfxKHYmmanLLLF1frgFHVh7TNC71y+ftbYSkFMFzmpmMyjnJfnO35+33aevECbrZnBBr5gDowIaV//LHBiqlBwkoYG9uua4Hm56GMfAHFRd+TTiRlFr1fdxR+gECADxwAW4mx6Z5WMtZAgaOrNJPVJzUYdgwB90bjmUpqFYX0Q=="
+                    "thoughtSignature": "Co4CAdHtim/5iC+UXWRQpsGQaW1lSdI8pyKb5j1Gb2TVk1aLKOxzXDIT07SYJ3hpvV40f0PiQ3edqkElM4slt9VSIPRlNafEGxptwE/pLDru67FIf9LipkJ1q6wY7SaJcjio9rqJrdvb1mkfqyqw+NIpVoyXRuDYKji1sh2l8JT8z5VriL9rcL30U5//qbOVTtpOyHpHXQVTqsKdYgqpkk/8FbZI9YreF359j6OK+oB9LoPdaU9fl5rTENo3uBWXr8D0NbXuAWjo615nDZRyHbjJC/CS/QO0rZZsDJFm8w1zNvVd+N6VuGZZBZO3gDRTKAJrPfdq9Js5CHPSYJQcWRrsDIYBxIzcwP/6raWIomWg"
                   }
                 ],
                 "role": "model"
@@ -71,26 +71,26 @@ http_interactions:
           "usageMetadata": {
             "promptTokenCount": 41,
             "candidatesTokenCount": 14,
-            "totalTokenCount": 112,
+            "totalTokenCount": 110,
             "promptTokensDetails": [
               {
                 "modality": "TEXT",
                 "tokenCount": 41
               }
             ],
-            "thoughtsTokenCount": 57
+            "thoughtsTokenCount": 55
           },
           "modelVersion": "gemini-2.5-flash",
-          "responseId": "swauaLmoGoa9vdIPscyF8A0"
+          "responseId": "mpPGaIbuFrXqkdUP7cmg6QY"
         }
-  recorded_at: Tue, 26 Aug 2025 19:10:43 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:18 GMT
 - request:
     method: post
     uri: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
     body:
       encoding: UTF-8
       string: '{"contents":[{"role":"user","parts":[{"text":"What''s the best language
-        to learn?"}]},{"role":"model","parts":[{"functionCall":{"name":"best_language_to_learn","args":{}}}]},{"role":"user","parts":[{"functionResponse":{"name":"d43e331c-e8a6-4ec8-957e-0f80114950ee","response":{"name":"d43e331c-e8a6-4ec8-957e-0f80114950ee","content":[{"text":"Ruby"}]}}}]}],"generationConfig":{},"tools":[{"functionDeclarations":[{"name":"best_language_to_learn","description":"Gets
+        to learn?"}]},{"role":"model","parts":[{"functionCall":{"name":"best_language_to_learn","args":{}}}]},{"role":"user","parts":[{"functionResponse":{"name":"b2fa40c4-f76e-4578-9c99-6d1c579fd669","response":{"name":"b2fa40c4-f76e-4578-9c99-6d1c579fd669","content":[{"text":"Ruby"}]}}}]}],"generationConfig":{},"tools":[{"functionDeclarations":[{"name":"best_language_to_learn","description":"Gets
         the best language to learn"}]}]}'
     headers:
       User-Agent:
@@ -115,7 +115,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Tue, 26 Aug 2025 19:10:43 GMT
+      - Sun, 14 Sep 2025 10:06:18 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -125,7 +125,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Server-Timing:
-      - gfet4t7; dur=353
+      - gfet4t7; dur=496
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
       Transfer-Encoding:
@@ -139,7 +139,7 @@ http_interactions:
               "content": {
                 "parts": [
                   {
-                    "text": "Ruby is the best language to learn."
+                    "text": "Ruby is considered the best language to learn."
                   }
                 ],
                 "role": "model"
@@ -150,8 +150,8 @@ http_interactions:
           ],
           "usageMetadata": {
             "promptTokenCount": 144,
-            "candidatesTokenCount": 8,
-            "totalTokenCount": 152,
+            "candidatesTokenCount": 9,
+            "totalTokenCount": 153,
             "promptTokensDetails": [
               {
                 "modality": "TEXT",
@@ -160,7 +160,7 @@ http_interactions:
             ]
           },
           "modelVersion": "gemini-2.5-flash",
-          "responseId": "swauaM_ZMpXVxN8Pl5qK2A0"
+          "responseId": "mpPGaOHuN_OlkdUPuNy2yQ0"
         }
-  recorded_at: Tue, 26 Aug 2025 19:10:43 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:18 GMT
 recorded_with: VCR 6.3.1

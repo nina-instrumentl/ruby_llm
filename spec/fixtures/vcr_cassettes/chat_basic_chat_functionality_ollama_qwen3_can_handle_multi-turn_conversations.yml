@@ -24,93 +24,54 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 03 Sep 2025 14:58:26 GMT
+      - Sun, 14 Sep 2025 10:01:55 GMT
       Transfer-Encoding:
       - chunked
     body:
-      encoding: UTF-8
-      string: '{"id":"chatcmpl-814","object":"chat.completion","created":1756911506,"model":"qwen3","system_fingerprint":"fp_ollama","choices":[{"index":0,"message":{"role":"assistant","content":"\u003cthink\u003e\nOkay,
-        the user is asking who Ruby''s creator is. First, I need to clarify which
-        Ruby they''re referring to because there are multiple things named Ruby.\n\nThe
-        most common one is the Ruby programming language. Ruby was created by Yukihiro
-        \"Matz\" Matsumoto in the mid-1990s. He developed it with the goal of making
-        programming more enjoyable and productive. So that''s one possible answer.\n\nBut
-        wait, there''s also a character named Ruby in the anime \"Attack on Titan.\"
-        The main character is Eren Yeager, but there''s a character named Ruby who
-        is a member of the Survey Corps. However, the user might be referring to this
-        character. In that case, Ruby''s creator would be the writers of the anime,
-        like Isayama Hajime, who created the Attack on Titan series. But the term
-        \"creator\" can be ambiguous here. If they meant the character''s creator,
-        it''s the author, but if they mean the in-universe creator, then it''s a different
-        story. However, the question seems more likely to refer to the programming
-        language.\n\nAnother possibility is Ruby, the brand of watches. The Ruby brand
-        is created by Ruby, Inc., which is a Japanese company. Their founder is likely
-        someone like Hiroyuki Tanaka, but I''m not entirely sure. However, since the
-        user is asking about the creator, it''s more likely referring to the programming
-        language unless specified otherwise. \n\nI should also consider if there''s
-        any other Ruby reference, like a video game or another character. But given
-        the common context, the programming language is the most probable. So the
-        answer should focus on Matsumoto as the creator of the Ruby programming language.
-        But maybe I should mention other possibilities just in case, to cover all
-        bases.\n\u003c/think\u003e\n\nThe answer depends on which \"Ruby\" you''re
-        referring to:\n\n1. **Ruby (programming language)**:  \n   Ruby was created
-        by **Yukihiro \"Matz\" Matsumoto** in the mid-1990s. He developed it with
-        the goal of making programming more enjoyable and productive, combining elements
-        of Perl, Smalltalk, and other languages.\n\n2. **Ruby (character from *Attack
-        on Titan* anime)**:  \n   In the *Attack on Titan* series, the character **Ruby**
-        (full name: **Ruby A. A.** or **Ruby Reiss**) is a member of the Survey Corps.
-        Her \"creator\" in the fictional universe would be the author of the series,
-        **Isayama Hajime**. However, this is a creative work, and the character is
-        a fictional invention rather than a real person.\n\n3. **Ruby (brand of watches)**:  \n   If
-        referring to the **Ruby watch brand**, it was founded by **Hiroyuki Tanaka**
-        in Japan. The brand is known for its high-quality timepieces.\n\nIf you meant
-        something else (e.g., a song, book, or game), please clarify!"},"finish_reason":"stop"}],"usage":{"prompt_tokens":14,"completion_tokens":612,"total_tokens":626}}
-
-        '
-  recorded_at: Wed, 03 Sep 2025 14:58:27 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTU1NyIsIm9iamVjdCI6ImNoYXQuY29tcGxldGlvbiIsImNyZWF0ZWQiOjE3NTc4NDQxMTUsIm1vZGVsIjoicXdlbjMiLCJzeXN0ZW1fZmluZ2VycHJpbnQiOiJmcF9vbGxhbWEiLCJjaG9pY2VzIjpbeyJpbmRleCI6MCwibWVzc2FnZSI6eyJyb2xlIjoiYXNzaXN0YW50IiwiY29udGVudCI6Ilx1MDAzY3RoaW5rXHUwMDNlXG5Pa2F5LCB0aGUgdXNlciBpcyBhc2tpbmcgYWJvdXQgUnVieSdzIGNyZWF0b3IuIEZpcnN0LCBJIG5lZWQgdG8gY29uZmlybSB3aGF0IHRoZXkncmUgcmVmZXJyaW5nIHRvIGFzIFwiUnVieS5cIiBSdWJ5IGNvdWxkIGJlIGEgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2UsIGEgZ2Vtc3RvbmUsIGEgcGVyc29uJ3MgbmFtZSwgb3Igc29tZXRoaW5nIGVsc2UuIFNpbmNlIHRoZSBjb250ZXh0IGlzIGFib3V0IGEgY3JlYXRvciwgdGhlIG1vc3QgbGlrZWx5IGNhbmRpZGF0ZSBpcyB0aGUgUnVieSBwcm9ncmFtbWluZyBsYW5ndWFnZS5cblxuVGhlIFJ1YnkgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2Ugd2FzIGNyZWF0ZWQgYnkgWXVraWhpcm8gXCJNYXR6XCIgTWF0c3Vtb3RvLiBJIHNob3VsZCBtZW50aW9uIGhpcyBmdWxsIG5hbWUsIGhpcyBuaWNrbmFtZSwgYW5kIHRoZSB5ZWFyIHRoZSBsYW5ndWFnZSB3YXMgZmlyc3QgcmVsZWFzZWQsIHdoaWNoIGlzIDE5OTUuIEl0J3MgaW1wb3J0YW50IHRvIG5vdGUgdGhhdCBNYXR6IGlzIGtub3duIGZvciBkZXNpZ25pbmcgUnVieSB3aXRoIGEgZm9jdXMgb24gc2ltcGxpY2l0eSBhbmQgcHJvZHVjdGl2aXR5LCB3aGljaCBtYWtlcyBpdCBwb3B1bGFyIGZvciB3ZWIgZGV2ZWxvcG1lbnQsIGVzcGVjaWFsbHkgd2l0aCBmcmFtZXdvcmtzIGxpa2UgUnVieSBvbiBSYWlscy4gXG5cbkkgc2hvdWxkIGFsc28gbWVudGlvbiB0aGF0IHdoaWxlIE1hdHogaXMgdGhlIHByaW1hcnkgY3JlYXRvciwgaGUgaGFzIGEgdGVhbSBvZiBjb250cmlidXRvcnMgd2hvIGhhdmUgaGVscGVkIHNoYXBlIHRoZSBsYW5ndWFnZSBvdmVyIHRoZSB5ZWFycy4gSG93ZXZlciwgdGhlIG1haW4gZmlndXJlIGFzc29jaWF0ZWQgd2l0aCBSdWJ5J3MgY3JlYXRpb24gaXMgTWF0c3Vtb3RvLiBcblxuV2FpdCwgdGhlIHVzZXIgbWlnaHQgbm90IGtub3cgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBSdWJ5IHRoZSBsYW5ndWFnZSBhbmQgb3RoZXIgcG9zc2liaWxpdGllcy4gSSBzaG91bGQgYnJpZWZseSBhZGRyZXNzIG90aGVyIG1lYW5pbmdzIG9mIFJ1YnkganVzdCBpbiBjYXNlLiBGb3IgZXhhbXBsZSwgUnVieSBjb3VsZCByZWZlciB0byB0aGUgZ2Vtc3RvbmUsIGJ1dCB0aGUgY3JlYXRvciB0aGVyZSB3b3VsZCBiZSBuYXR1cmUsIG9yIGlmIGl0J3MgYSBwZXJzb24ncyBuYW1lLCBsaWtlIFJ1YnkgdGhlIHBlcnNvbiAoZS5nLiwgUnVieSBCcmlkZ2VzKSwgYnV0IHRoYXQncyBsZXNzIGxpa2VseS4gXG5cbkJ1dCBnaXZlbiB0aGUgY29udGV4dCBvZiBcImNyZWF0b3IsXCIgaXQncyBwcm9iYWJseSB0aGUgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2UuIFNvIEknbGwgZm9jdXMgb24gdGhhdCwgbWFrZSBzdXJlIHRvIGV4cGxhaW4gdGhhdCBNYXR6IGlzIHRoZSBwcmltYXJ5IGNyZWF0b3IsIGFuZCBtZW50aW9uIHRoZSB5ZWFyLiBBbHNvLCBjbGFyaWZ5IHRoYXQgaGUncyBub3QgYSBzb2xvIGRldmVsb3BlciBidXQgdGhlIG1haW4gZGVzaWduZXIuIFxuXG5Eb3VibGUtY2hlY2tpbmcgdGhlIGRldGFpbHM6IE1hdHN1bW90byByZWxlYXNlZCBSdWJ5IGluIDE5OTUsIGFuZCBoZSdzIHN0aWxsIGludm9sdmVkIGluIGl0cyBkZXZlbG9wbWVudC4gVGhlIG5hbWUgUnVieSBpcyBkZXJpdmVkIGZyb20gdGhlIGdlbXN0b25lLCB3aGljaCBpcyBhIG5vZCB0byBpdHMgYmVhdXR5LiBcblxuSSB0aGluayB0aGF0J3MgYWxsLiBUaGUgdXNlciBtaWdodCBiZSBhIHByb2dyYW1tZXIgb3Igc29tZW9uZSBsZWFybmluZyBhYm91dCBSdWJ5LCBzbyBwcm92aWRpbmcgY2xlYXIgYW5kIGNvbmNpc2UgaW5mb3JtYXRpb24gaXMga2V5LiBNYWtlIHN1cmUgdG8gaGlnaGxpZ2h0IE1hdHoncyByb2xlIGFuZCB0aGUgc2lnbmlmaWNhbmNlIG9mIFJ1YnkncyBjcmVhdGlvbi5cblx1MDAzYy90aGlua1x1MDAzZVxuXG5JZiB5b3UncmUgcmVmZXJyaW5nIHRvICoqUnVieSoqLCB0aGUgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2UsIGl0cyBjcmVhdG9yIGlzICoqWXVraWhpcm8gXCJNYXR6XCIgTWF0c3Vtb3RvKiouIEhlIGRlc2lnbmVkIGFuZCBkZXZlbG9wZWQgUnVieSBpbiB0aGUgbWlkLTE5OTBzLCB3aXRoIHRoZSBmaXJzdCBwdWJsaWMgcmVsZWFzZSBpbiAxOTk1LiBNYXR6IGlzIGtub3duIGZvciBjcmVhdGluZyBSdWJ5IHdpdGggYSBmb2N1cyBvbiBzaW1wbGljaXR5LCBwcm9kdWN0aXZpdHksIGFuZCBkZXZlbG9wZXIgaGFwcGluZXNzLCBtYWtpbmcgaXQgcG9wdWxhciBmb3Igd2ViIGRldmVsb3BtZW50IChlc3BlY2lhbGx5IHdpdGggZnJhbWV3b3JrcyBsaWtlICoqUnVieSBvbiBSYWlscyoqKS5cblxuSWYgeW91IG1lYW50IGEgZGlmZmVyZW50IFwiUnVieVwiIChlLmcuLCB0aGUgZ2Vtc3RvbmUgb3IgYSBwZXJzb24pLCBwbGVhc2UgY2xhcmlmeSwgYW5kIEnigJlsbCBhZGp1c3QgdGhlIGFuc3dlciBhY2NvcmRpbmdseSEg8J+MnyJ9LCJmaW5pc2hfcmVhc29uIjoic3RvcCJ9XSwidXNhZ2UiOnsicHJvbXB0X3Rva2VucyI6MTQsImNvbXBsZXRpb25fdG9rZW5zIjo1NDAsInRvdGFsX3Rva2VucyI6NTU0fX0K
+  recorded_at: Sun, 14 Sep 2025 10:01:55 GMT
 - request:
     method: post
     uri: "<OLLAMA_API_BASE>/chat/completions"
     body:
       encoding: UTF-8
-      string: '{"model":"qwen3","messages":[{"role":"user","content":"Who was Ruby''s
-        creator?"},{"role":"assistant","content":"<think>\nOkay, the user is asking
-        who Ruby''s creator is. First, I need to clarify which Ruby they''re referring
-        to because there are multiple things named Ruby.\n\nThe most common one is
-        the Ruby programming language. Ruby was created by Yukihiro \"Matz\" Matsumoto
-        in the mid-1990s. He developed it with the goal of making programming more
-        enjoyable and productive. So that''s one possible answer.\n\nBut wait, there''s
-        also a character named Ruby in the anime \"Attack on Titan.\" The main character
-        is Eren Yeager, but there''s a character named Ruby who is a member of the
-        Survey Corps. However, the user might be referring to this character. In that
-        case, Ruby''s creator would be the writers of the anime, like Isayama Hajime,
-        who created the Attack on Titan series. But the term \"creator\" can be ambiguous
-        here. If they meant the character''s creator, it''s the author, but if they
-        mean the in-universe creator, then it''s a different story. However, the question
-        seems more likely to refer to the programming language.\n\nAnother possibility
-        is Ruby, the brand of watches. The Ruby brand is created by Ruby, Inc., which
-        is a Japanese company. Their founder is likely someone like Hiroyuki Tanaka,
-        but I''m not entirely sure. However, since the user is asking about the creator,
-        it''s more likely referring to the programming language unless specified otherwise.
-        \n\nI should also consider if there''s any other Ruby reference, like a video
-        game or another character. But given the common context, the programming language
-        is the most probable. So the answer should focus on Matsumoto as the creator
-        of the Ruby programming language. But maybe I should mention other possibilities
-        just in case, to cover all bases.\n</think>\n\nThe answer depends on which
-        \"Ruby\" you''re referring to:\n\n1. **Ruby (programming language)**:  \n   Ruby
-        was created by **Yukihiro \"Matz\" Matsumoto** in the mid-1990s. He developed
-        it with the goal of making programming more enjoyable and productive, combining
-        elements of Perl, Smalltalk, and other languages.\n\n2. **Ruby (character
-        from *Attack on Titan* anime)**:  \n   In the *Attack on Titan* series, the
-        character **Ruby** (full name: **Ruby A. A.** or **Ruby Reiss**) is a member
-        of the Survey Corps. Her \"creator\" in the fictional universe would be the
-        author of the series, **Isayama Hajime**. However, this is a creative work,
-        and the character is a fictional invention rather than a real person.\n\n3.
-        **Ruby (brand of watches)**:  \n   If referring to the **Ruby watch brand**,
-        it was founded by **Hiroyuki Tanaka** in Japan. The brand is known for its
-        high-quality timepieces.\n\nIf you meant something else (e.g., a song, book,
-        or game), please clarify!"},{"role":"user","content":"What year did he create
-        Ruby?"}],"stream":false}'
+      string: "{\"model\":\"qwen3\",\"messages\":[{\"role\":\"user\",\"content\":\"Who
+        was Ruby's creator?\"},{\"role\":\"assistant\",\"content\":\"<think>\\nOkay,
+        the user is asking about Ruby's creator. First, I need to confirm what they're
+        referring to as \\\"Ruby.\\\" Ruby could be a programming language, a gemstone,
+        a person's name, or something else. Since the context is about a creator,
+        the most likely candidate is the Ruby programming language.\\n\\nThe Ruby
+        programming language was created by Yukihiro \\\"Matz\\\" Matsumoto. I should
+        mention his full name, his nickname, and the year the language was first released,
+        which is 1995. It's important to note that Matz is known for designing Ruby
+        with a focus on simplicity and productivity, which makes it popular for web
+        development, especially with frameworks like Ruby on Rails. \\n\\nI should
+        also mention that while Matz is the primary creator, he has a team of contributors
+        who have helped shape the language over the years. However, the main figure
+        associated with Ruby's creation is Matsumoto. \\n\\nWait, the user might not
+        know the difference between Ruby the language and other possibilities. I should
+        briefly address other meanings of Ruby just in case. For example, Ruby could
+        refer to the gemstone, but the creator there would be nature, or if it's a
+        person's name, like Ruby the person (e.g., Ruby Bridges), but that's less
+        likely. \\n\\nBut given the context of \\\"creator,\\\" it's probably the
+        programming language. So I'll focus on that, make sure to explain that Matz
+        is the primary creator, and mention the year. Also, clarify that he's not
+        a solo developer but the main designer. \\n\\nDouble-checking the details:
+        Matsumoto released Ruby in 1995, and he's still involved in its development.
+        The name Ruby is derived from the gemstone, which is a nod to its beauty.
+        \\n\\nI think that's all. The user might be a programmer or someone learning
+        about Ruby, so providing clear and concise information is key. Make sure to
+        highlight Matz's role and the significance of Ruby's creation.\\n</think>\\n\\nIf
+        you're referring to **Ruby**, the programming language, its creator is **Yukihiro
+        \\\"Matz\\\" Matsumoto**. He designed and developed Ruby in the mid-1990s,
+        with the first public release in 1995. Matz is known for creating Ruby with
+        a focus on simplicity, productivity, and developer happiness, making it popular
+        for web development (especially with frameworks like **Ruby on Rails**).\\n\\nIf
+        you meant a different \\\"Ruby\\\" (e.g., the gemstone or a person), please
+        clarify, and I’ll adjust the answer accordingly! \U0001F31F\"},{\"role\":\"user\",\"content\":\"What
+        year did he create Ruby?\"}],\"stream\":false}"
     headers:
       User-Agent:
       - Faraday v2.13.4
@@ -128,33 +89,12 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 03 Sep 2025 14:58:30 GMT
-      Content-Length:
-      - '1829'
+      - Sun, 14 Sep 2025 10:01:59 GMT
+      Transfer-Encoding:
+      - chunked
     body:
-      encoding: UTF-8
-      string: '{"id":"chatcmpl-701","object":"chat.completion","created":1756911510,"model":"qwen3","system_fingerprint":"fp_ollama","choices":[{"index":0,"message":{"role":"assistant","content":"\u003cthink\u003e\nOkay,
-        the user is asking about the year Ruby was created, specifically referring
-        to the programming language. Let me recall my previous answer where I mentioned
-        that Ruby was created by Matz in the mid-1990s. Now the user wants the exact
-        year.\n\nWait, the mid-1990s is a range. I need to check the exact year. I
-        remember that Matz started developing Ruby in 1993, but the first public version
-        was released in 1995. So the creation year is 1995 for the first release.
-        However, the conceptual development started earlier. The user might be interested
-        in when it was officially launched. \n\nLet me verify. Ruby 0.9.1 was released
-        in 1995, and that''s considered the first public version. So the answer would
-        be 1995. But sometimes people might refer to the start of development in 1993.
-        The user might need clarification on whether they mean the initial development
-        or the first release. But since the question is about the creation year, the
-        standard answer is 1995. I should state that and mention the development started
-        in 1993 to avoid confusion.\n\u003c/think\u003e\n\nYukihiro \"Matz\" Matsumoto
-        created the **Ruby programming language** in **1995**, with the first public
-        release of Ruby (version 0.9.1) happening that year. However, the development
-        of Ruby began in **1993**, as Matsumoto started designing the language during
-        this time. The exact year of creation is often cited as **1995**, when the
-        first official version was released. \n\nIf you meant a different \"Ruby\"
-        (like the character or brand), let me know!"},"finish_reason":"stop"}],"usage":{"prompt_tokens":274,"completion_tokens":372,"total_tokens":646}}
-
-        '
-  recorded_at: Wed, 03 Sep 2025 14:58:30 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTE0OCIsIm9iamVjdCI6ImNoYXQuY29tcGxldGlvbiIsImNyZWF0ZWQiOjE3NTc4NDQxMTksIm1vZGVsIjoicXdlbjMiLCJzeXN0ZW1fZmluZ2VycHJpbnQiOiJmcF9vbGxhbWEiLCJjaG9pY2VzIjpbeyJpbmRleCI6MCwibWVzc2FnZSI6eyJyb2xlIjoiYXNzaXN0YW50IiwiY29udGVudCI6Ilx1MDAzY3RoaW5rXHUwMDNlXG5Pa2F5LCB0aGUgdXNlciBhc2tlZCwgXCJXaGF0IHllYXIgZGlkIGhlIGNyZWF0ZSBSdWJ5P1wiIFRoZXkgcHJldmlvdXNseSBhc2tlZCBhYm91dCBSdWJ5J3MgY3JlYXRvciwgYW5kIEkgcHJvdmlkZWQgdGhlIGFuc3dlciB0aGF0IE1hdHogY3JlYXRlZCBpdCBpbiB0aGUgbWlkLTE5OTBzIHdpdGggdGhlIGZpcnN0IHJlbGVhc2UgaW4gMTk5NS4gTm93IHRoZXkgd2FudCB0aGUgc3BlY2lmaWMgeWVhci5cblxuRmlyc3QsIEkgbmVlZCB0byBjb25maXJtIHRoZSBleGFjdCByZWxlYXNlIHllYXIuIEZyb20gd2hhdCBJIHJlbWVtYmVyLCBSdWJ5IDAuMSB3YXMgcmVsZWFzZWQgaW4gMTk5NS4gQnV0IEkgc2hvdWxkIGRvdWJsZS1jaGVjayB0byBtYWtlIHN1cmUgdGhlcmUncyBubyBjb25mdXNpb24gd2l0aCBvdGhlciB2ZXJzaW9ucy4gQWxzbywgdGhlIHVzZXIgbWlnaHQgYmUgbG9va2luZyBmb3IgdGhlIHllYXIgb2YgdGhlIGZpcnN0IHB1YmxpYyByZWxlYXNlLCB3aGljaCBpcyAxOTk1LiBIb3dldmVyLCBzb21ldGltZXMgcGVvcGxlIG1pZ2h0IHJlZmVyIHRvIHRoZSB5ZWFyIHdoZW4gTWF0eiBzdGFydGVkIHdvcmtpbmcgb24gaXQsIHdoaWNoIHdhcyBhcm91bmQgMTk5My4gQnV0IHRoZSBmaXJzdCBwdWJsaWMgcmVsZWFzZSB3YXMgaW4gMTk5NS4gXG5cbkkgc2hvdWxkIG1lbnRpb24gYm90aCB0aGUgc3RhcnQgb2YgZGV2ZWxvcG1lbnQgYW5kIHRoZSBmaXJzdCByZWxlYXNlIHRvIGJlIHRob3JvdWdoLiBBbHNvLCBzaW5jZSB0aGUgdXNlciBtaWdodCBiZSBhIGJlZ2lubmVyLCBleHBsYWluaW5nIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gd2hlbiBkZXZlbG9wbWVudCBzdGFydGVkIGFuZCB3aGVuIGl0IHdhcyBvZmZpY2lhbGx5IHJlbGVhc2VkIGNvdWxkIGJlIGhlbHBmdWwuIFRoZXkgbWlnaHQgbm90IGtub3cgdGhhdCB0aGUgaW5pdGlhbCB2ZXJzaW9uIHdhcyByZWxlYXNlZCBpbiAxOTk1LCBldmVuIGlmIHRoZSBpZGVhIHdhcyBjb25jZWl2ZWQgZWFybGllci4gXG5cbkkgbmVlZCB0byBwcmVzZW50IHRoaXMgY2xlYXJseSwgc3RhdGluZyB0aGUgZmlyc3QgcmVsZWFzZSB5ZWFyIGFzIDE5OTUgYW5kIG5vdGluZyB0aGF0IGRldmVsb3BtZW50IGJlZ2FuIGluIGxhdGUgMTk5My4gVGhhdCB3YXksIHRoZSBhbnN3ZXIgaXMgYWNjdXJhdGUgYW5kIGluZm9ybWF0aXZlIHdpdGhvdXQgYmVpbmcgdG9vIHRlY2huaWNhbC4gTWFraW5nIHN1cmUgdG8gYXR0cmlidXRlIHRoZSBjcmVhdGlvbiB0byBNYXR6IGFzIHdlbGwsIHNpbmNlIHRoZSB1c2VyIHByZXZpb3VzbHkgYXNrZWQgYWJvdXQgdGhlIGNyZWF0b3IuIFxuXG5TbyB0aGUgYW5zd2VyIHNob3VsZCBiZSBjb25jaXNlIGJ1dCBjb3ZlciBib3RoIHRoZSBzdGFydCBvZiBkZXZlbG9wbWVudCBhbmQgdGhlIHJlbGVhc2UgeWVhciwgd2hpbGUgYWxzbyByZWluZm9yY2luZyB0aGF0IE1hdHogaXMgdGhlIGNyZWF0b3IuIEtlZXBpbmcgdGhlIHJlc3BvbnNlIHN0cmFpZ2h0Zm9yd2FyZCBhbmQgdG8gdGhlIHBvaW50LCBlbnN1cmluZyB0aGUgdXNlciBnZXRzIHRoZSBzcGVjaWZpYyB5ZWFyIHRoZXkgYXNrZWQgZm9yLlxuXHUwMDNjL3RoaW5rXHUwMDNlXG5cbll1a2loaXJvIFwiTWF0elwiIE1hdHN1bW90byBjcmVhdGVkIHRoZSAqKlJ1YnkgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2UqKiwgYW5kIHRoZSAqKmZpcnN0IHB1YmxpYyByZWxlYXNlKiogKHZlcnNpb24gMC4xKSB3YXMgaW4gKioxOTk1KiouIERldmVsb3BtZW50IGJlZ2FuIGluIGxhdGUgMTk5MywgYnV0IHRoZSBvZmZpY2lhbCByZWxlYXNlIGRhdGUgaXMgd2lkZWx5IHJlY29nbml6ZWQgYXMgKioxOTk1KiouIFRoaXMgaXMgd2hlbiBSdWJ5IGJlY2FtZSBwdWJsaWNseSBhdmFpbGFibGUgYW5kIHN0YXJ0ZWQgZ2FpbmluZyB0cmFjdGlvbiBpbiB0aGUgZGV2ZWxvcGVyIGNvbW11bml0eS4g8J+MnyJ9LCJmaW5pc2hfcmVhc29uIjoic3RvcCJ9XSwidXNhZ2UiOnsicHJvbXB0X3Rva2VucyI6MTU1LCJjb21wbGV0aW9uX3Rva2VucyI6NDQzLCJ0b3RhbF90b2tlbnMiOjU5OH19Cg==
+  recorded_at: Sun, 14 Sep 2025 10:01:59 GMT
 recorded_with: VCR 6.3.1

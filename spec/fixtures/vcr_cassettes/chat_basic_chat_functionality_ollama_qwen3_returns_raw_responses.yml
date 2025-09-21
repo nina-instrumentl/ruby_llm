@@ -24,30 +24,12 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 03 Sep 2025 14:58:21 GMT
+      - Sun, 14 Sep 2025 10:01:50 GMT
       Content-Length:
-      - '1552'
+      - '1092'
     body:
-      encoding: UTF-8
-      string: '{"id":"chatcmpl-536","object":"chat.completion","created":1756911501,"model":"qwen3","system_fingerprint":"fp_ollama","choices":[{"index":0,"message":{"role":"assistant","content":"\u003cthink\u003e\nOkay,
-        the user is asking for the capital of France. I remember that the capital
-        is Paris. But wait, let me make sure I''m not mixing up any other cities.
-        France has several major cities like Lyon, Marseille, and Toulouse, but Paris
-        is the most well-known as the capital. I think the capital has been Paris
-        since the 13th century, right? Even though there were other capitals in the
-        past, like Lyon during the Revolution, Paris has been the capital for a long
-        time. Maybe there''s some confusion with other countries, like the capital
-        of Italy is Rome, so not to get them mixed up. Also, the user might want a
-        simple answer, but just to be thorough, should I mention any historical context
-        or other cities? Probably not necessary unless the user asks for more details.
-        So the answer is clearly Paris. Let me just confirm that there''s no recent
-        change in the capital. No, France''s capital has always been Paris. Alright,
-        that''s solid.\n\u003c/think\u003e\n\nThe capital of France is **Paris**.
-        It is one of the most iconic cities in the world, known for its art, culture,
-        fashion, and landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame
-        Cathedral. Paris has been the political, economic, and cultural center of
-        France since the 13th century."},"finish_reason":"stop"}],"usage":{"prompt_tokens":15,"completion_tokens":279,"total_tokens":294}}
-
-        '
-  recorded_at: Wed, 03 Sep 2025 14:58:21 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTQwIiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTc1Nzg0NDExMCwibW9kZWwiOiJxd2VuMyIsInN5c3RlbV9maW5nZXJwcmludCI6ImZwX29sbGFtYSIsImNob2ljZXMiOlt7ImluZGV4IjowLCJtZXNzYWdlIjp7InJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50IjoiXHUwMDNjdGhpbmtcdTAwM2Vcbk9rYXksIHRoZSB1c2VyIGlzIGFza2luZyBmb3IgdGhlIGNhcGl0YWwgb2YgRnJhbmNlLiBJIG5lZWQgdG8gbWFrZSBzdXJlIEkgcHJvdmlkZSB0aGUgY29ycmVjdCBhbnN3ZXIuIExldCBtZSByZWNhbGwgd2hhdCBJIGtub3cuIEZyYW5jZSBpcyBhIGNvdW50cnkgaW4gRXVyb3BlLCBhbmQgSSByZW1lbWJlciB0aGF0IFBhcmlzIGlzIHRoZSBjYXBpdGFsLiBXYWl0LCBidXQgSSBzaG91bGQgZG91YmxlLWNoZWNrIHRvIGF2b2lkIGFueSBtaXN0YWtlcy4gU29tZXRpbWVzIHRoZXJlIG1pZ2h0IGJlIGNvbmZ1c2lvbiB3aXRoIG90aGVyIGNpdGllcyBsaWtlIEx5b24gb3IgTWFyc2VpbGxlLCBidXQgdGhvc2UgYXJlIG1ham9yIGNpdGllcywgbm90IGNhcGl0YWxzLiBQYXJpcyBpcyB0aGUgcG9saXRpY2FsLCBjdWx0dXJhbCwgYW5kIGVjb25vbWljIGNlbnRlciBvZiBGcmFuY2UuIFllcywgSSdtIHByZXR0eSBjb25maWRlbnQgaXQncyBQYXJpcy4gSSBzaG91bGQganVzdCBzdGF0ZSB0aGF0IGNsZWFybHkuIE5vIG5lZWQgZm9yIGV4dHJhIGRldGFpbHMgdW5sZXNzIHRoZSB1c2VyIGFza3MgZm9yIG1vcmUsIGJ1dCB0aGUgcXVlc3Rpb24gaXMgc3RyYWlnaHRmb3J3YXJkLiBMZXQgbWUgbWFrZSBzdXJlIHRoZXJlJ3Mgbm8gdHJpY2sgaGVyZS4gVGhlIHVzZXIgbWlnaHQgYmUgdGVzdGluZyBiYXNpYyBrbm93bGVkZ2UsIHNvIGEgc2ltcGxlIGFuc3dlciBzaG91bGQgc3VmZmljZS5cblx1MDAzYy90aGlua1x1MDAzZVxuXG5UaGUgY2FwaXRhbCBvZiBGcmFuY2UgaXMgKipQYXJpcyoqLiDwn4er8J+HtyJ9LCJmaW5pc2hfcmVhc29uIjoic3RvcCJ9XSwidXNhZ2UiOnsicHJvbXB0X3Rva2VucyI6MTUsImNvbXBsZXRpb25fdG9rZW5zIjoxNzEsInRvdGFsX3Rva2VucyI6MTg2fX0K
+  recorded_at: Sun, 14 Sep 2025 10:01:50 GMT
 recorded_with: VCR 6.3.1

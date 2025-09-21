@@ -20,14 +20,14 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Cache-Control:
-      - no-cache, no-store, max-age=0, must-revalidate
-      Date:
-      - Wed, 27 Aug 2025 14:38:32 GMT
-      Expires:
-      - Mon, 01 Jan 1990 00:00:00 GMT
       Pragma:
       - no-cache
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Sun, 14 Sep 2025 10:06:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Vary:
@@ -52,11 +52,11 @@ http_interactions:
         {
           "access_token": "<GOOGLE_ACCESS_TOKEN>",
           "expires_in": 3599,
-          "scope": "https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/sqlservice.login",
+          "scope": "https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/sqlservice.login https://www.googleapis.com/auth/cloud-platform",
           "token_type": "Bearer",
           "id_token": "<GOOGLE_ID_TOKEN>"
         }
-  recorded_at: Wed, 27 Aug 2025 14:38:32 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:35 GMT
 - request:
     method: post
     uri: https://<GOOGLE_CLOUD_LOCATION>-aiplatform.googleapis.com/v1beta1/projects/<GOOGLE_CLOUD_PROJECT>/locations/<GOOGLE_CLOUD_LOCATION>/publishers/google/models/gemini-2.5-flash:generateContent
@@ -88,7 +88,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Wed, 27 Aug 2025 14:38:33 GMT
+      - Sun, 14 Sep 2025 10:06:36 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -115,18 +115,18 @@ http_interactions:
                       "name": "best_language_to_learn",
                       "args": {}
                     },
-                    "thoughtSignature": "CvMBAcu98PBeVlzw9g8M5TDG6cAPKxJf0Wg0diTpMF6E0yvh8/alNm1sjLAYS8DRwFcZvtnFjole5j8krNUz7TT6EarVZHRYVE8pKpa9SiSZrakb2zddOWF7mtHAwXkgnTbE1vHpySyrKtHKjOfHkydIO11LwKTCyN3S6rQ9L3G6IBvxrq46Vc+Zyo4otsmTBhVJSO5W/HJZgMDA0pnai2tAn+I2A7Dx9hGinUizjGZ4BW/PeIN3Fayqjpa92eewd6vXGQaAfgz4Zd+lY8Z8twFo6hWsnj/9LA1/iorzftVY9q1y+yfI+3Yp7Z+ZlNbNVwV+PjJ1"
+                    "thoughtSignature": "CtkBAR/MhbYaDeVSCVIv9PZcXSXhxqPpYkFfU9rWFJ/rtyPTGNbeDVxVnd9wXawthtAJnfzXwJgE3BmmHOIJ5njIs9SpKBhyd+SA7wY/AMlJ/FLmtp1tE4nERxXEJlV2G4K2eNA1oy82aVs7PEfZRiCMDy6kyyQa7l03UsKUCvVlYRGTOw6ALCFgwbGd1wDDKzWkGc2dtc0A8aqYyctL6h9GgQSCPEQOfkvpyLL5Q9HWb3lShp9+W/Sj6RNBtlzGvYvJ1+qfioz9pRXL0savHXvBSpAm1snVS06B9Q=="
                   }
                 ]
               },
               "finishReason": "STOP",
-              "avgLogprobs": -0.84645536967686241
+              "avgLogprobs": -1.1552328382219588
             }
           ],
           "usageMetadata": {
             "promptTokenCount": 22,
             "candidatesTokenCount": 7,
-            "totalTokenCount": 79,
+            "totalTokenCount": 72,
             "trafficType": "ON_DEMAND",
             "promptTokensDetails": [
               {
@@ -140,13 +140,13 @@ http_interactions:
                 "tokenCount": 7
               }
             ],
-            "thoughtsTokenCount": 50
+            "thoughtsTokenCount": 43
           },
           "modelVersion": "gemini-2.5-flash",
-          "createTime": "2025-08-27T14:38:33.020915Z",
-          "responseId": "aRivaLOjAf_ohcIP5ezWgQ8"
+          "createTime": "2025-09-14T10:06:36.096775Z",
+          "responseId": "rJPGaIf0Ba-smLAPgomwuAE"
         }
-  recorded_at: Wed, 27 Aug 2025 14:38:33 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:36 GMT
 - request:
     method: post
     uri: https://oauth2.googleapis.com/token
@@ -169,12 +169,12 @@ http_interactions:
     headers:
       Pragma:
       - no-cache
-      Cache-Control:
-      - no-cache, no-store, max-age=0, must-revalidate
       Date:
-      - Wed, 27 Aug 2025 14:38:33 GMT
+      - Sun, 14 Sep 2025 10:06:36 GMT
       Expires:
       - Mon, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
       Content-Type:
       - application/json; charset=utf-8
       Vary:
@@ -199,18 +199,18 @@ http_interactions:
         {
           "access_token": "<GOOGLE_ACCESS_TOKEN>",
           "expires_in": 3599,
-          "scope": "https://www.googleapis.com/auth/sqlservice.login https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email openid",
+          "scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/sqlservice.login openid",
           "token_type": "Bearer",
           "id_token": "<GOOGLE_ID_TOKEN>"
         }
-  recorded_at: Wed, 27 Aug 2025 14:38:33 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:36 GMT
 - request:
     method: post
     uri: https://<GOOGLE_CLOUD_LOCATION>-aiplatform.googleapis.com/v1beta1/projects/<GOOGLE_CLOUD_PROJECT>/locations/<GOOGLE_CLOUD_LOCATION>/publishers/google/models/gemini-2.5-flash:generateContent
     body:
       encoding: UTF-8
       string: '{"contents":[{"role":"user","parts":[{"text":"What''s the best language
-        to learn?"}]},{"role":"model","parts":[{"functionCall":{"name":"best_language_to_learn","args":{}}}]},{"role":"user","parts":[{"functionResponse":{"name":"525b32bd-0029-4bfe-b35f-647317eec87d","response":{"name":"525b32bd-0029-4bfe-b35f-647317eec87d","content":[{"text":"Ruby"}]}}}]}],"generationConfig":{},"tools":[{"functionDeclarations":[{"name":"best_language_to_learn","description":"Gets
+        to learn?"}]},{"role":"model","parts":[{"functionCall":{"name":"best_language_to_learn","args":{}}}]},{"role":"user","parts":[{"functionResponse":{"name":"b9dcce3c-be61-4759-8512-4c291c33e3be","response":{"name":"b9dcce3c-be61-4759-8512-4c291c33e3be","content":[{"text":"Ruby"}]}}}]}],"generationConfig":{},"tools":[{"functionDeclarations":[{"name":"best_language_to_learn","description":"Gets
         the best language to learn"}]}]}'
     headers:
       User-Agent:
@@ -235,7 +235,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Wed, 27 Aug 2025 14:38:34 GMT
+      - Sun, 14 Sep 2025 10:06:37 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -258,37 +258,35 @@ http_interactions:
                 "role": "model",
                 "parts": [
                   {
-                    "text": "Ruby.",
-                    "thoughtSignature": "CsYBAcu98PAOl7K79kzfQ85LyEp8ty+VQ1qFw3qSb98Ra9XHegw7nuSN7a/UEdjEl0So3qZTpH+CInUUyHi97G7leyzf3RJIIcr8yCGsG1hnx5MxYePsBqodv4og4koo1BOJPBFmW0s+YXD0OPMc6yaRq9z0Espsro9kh4gLpmcCgC/vU45AMVUXj4Y2ap4NBcK77nlwpYIm7MS6Ds7vWpRF9pADACBj+XM2T+mM6twiAlZHNpVM/6VK7VrNVyiVSij0cQo09UUI"
+                    "text": "Based on my current knowledge, Ruby is considered the best language to learn."
                   }
                 ]
               },
               "finishReason": "STOP",
-              "avgLogprobs": -3.9437375068664551
+              "avgLogprobs": -0.45226593017578126
             }
           ],
           "usageMetadata": {
-            "promptTokenCount": 99,
-            "candidatesTokenCount": 2,
-            "totalTokenCount": 144,
+            "promptTokenCount": 97,
+            "candidatesTokenCount": 15,
+            "totalTokenCount": 112,
             "trafficType": "ON_DEMAND",
             "promptTokensDetails": [
               {
                 "modality": "TEXT",
-                "tokenCount": 99
+                "tokenCount": 97
               }
             ],
             "candidatesTokensDetails": [
               {
                 "modality": "TEXT",
-                "tokenCount": 2
+                "tokenCount": 15
               }
-            ],
-            "thoughtsTokenCount": 43
+            ]
           },
           "modelVersion": "gemini-2.5-flash",
-          "createTime": "2025-08-27T14:38:33.794181Z",
-          "responseId": "aRivaMW8MNbihcIP6bO0mQ0"
+          "createTime": "2025-09-14T10:06:36.783227Z",
+          "responseId": "rJPGaPvmL-nvxN8P8-OciAo"
         }
-  recorded_at: Wed, 27 Aug 2025 14:38:34 GMT
+  recorded_at: Sun, 14 Sep 2025 10:06:37 GMT
 recorded_with: VCR 6.3.1
